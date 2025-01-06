@@ -1,7 +1,7 @@
 name: SAST Check
 on:
   push:
-    branches: [ master ]  # Adjust this to your master branch name
+    branches: [ master ]  # Adjust this to your master branch name.
   pull_request:
     branches: [ master ]  # Optionally run on PRs
 jobs:
